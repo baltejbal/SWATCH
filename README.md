@@ -28,10 +28,10 @@ and  the sen-11574 pulse rate sensor from [here]( https://elmwoodelectronics.ca/
 # Build-materials-and-Budget
 <br/>
 A full list of materials along with a detailed view of costs can be downloaded form within this repository.[budget.docx](https://github.com/baltejbal/SWATCH/blob/master/budget.xlsx)<br/>
-
+<br/>
 The total cost of producing this project is heavily inflated due to the cost of the soldering kit that was supplied in the lab during
 development. Any generic solding iron can be used for this project.</br>
-
+<br/>
 The total cost after removing the soldering kit is: **$ 129.51 CAD** after HST. This includes all the tools used in completing the project (eg. wirecutters, needlenose pliers, breadboard, etc.)</br>
 
 Notable purchases include: Raspberry Pi 3B+ Kit ($74.29 CAD) and Sen-11574 Pulse Rate Sensor ($23.28 CAD).
