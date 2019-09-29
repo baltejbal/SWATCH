@@ -16,6 +16,7 @@ Smart Watch IoT Project for CENG317 2019-2020
 # Introduction
 Freescale's MAG3110 is a small, low-power, digital 3-axis magnetometer. The device can be used in conjunction with a 3-axis accelerometer to realize an orientation independent electronic compass that can provide accurate heading information.
 
-![mag3110](https://user-images.githubusercontent.com/43185906/49823957-e2d9c880-fd4e-11e8-8f70-44ee31da6da7.jpg)
+![mag3110](https://elmwoodelectronics.ca/products/11574?variant=28163190211&currency=CAD&utm_campaign=gs-2019-02-19&utm_source=google&utm_medium=smart_campaign&gclid=EAIaIQobChMI5Z3bwpX15AIVWPfjBx0yng6LEAQYAyABEgKNvvD_BwE)
 ####### (source of Image : https://www.sparkfun.com/products/12670)
 
+<br/>
