@@ -9,7 +9,7 @@ Smart Watch IoT Project for CENG317 2019-2020
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Build Materials and Budget](#Build-materials-and-Budget)
+- [Build Materials and Budget](#Budget)
 
 <br />
 
@@ -25,7 +25,7 @@ You can buy Raspberry Pie from [here]( https://www.raspberrypi.org/products/rasp
 and  the sen-11574 pulse rate sensor from [here]( https://elmwoodelectronics.ca/products/11574?variant=28163190211).
 <br/>
 <br/>
-# Build-materials-and-Budget
+# Budget
 <br/>
 A full list of materials along with a detailed view of costs can be downloaded form within this repository.[budget.docx](https://github.com/baltejbal/SWATCH/blob/master/budget.xlsx)<br/>
 <br/>
