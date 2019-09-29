@@ -41,7 +41,7 @@ Notable purchases include: Raspberry Pi 3B+ Kit ($74.29 CAD) and Sen-11574 Pulse
 </br>
 
 # Build Materials
-
+<br/>
 ### Raspberry Pi 3b+
 
 ![rpi3b](https://user-images.githubusercontent.com/42980862/49776194-078b5d00-fcc9-11e8-8d61-f96a17dfd31c.PNG)
