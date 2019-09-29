@@ -10,7 +10,7 @@ Smart Watch IoT Project for CENG317 2019-2020
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Budget](#Budget)
-- [Build Materials](#Build Materials)
+- [Build Materials](#Build-Materials)
 
 <br />
 
@@ -40,7 +40,8 @@ The total cost after removing the soldering kit is: **$ 129.51 CAD** after HST. 
 Notable purchases include: Raspberry Pi 3B+ Kit ($74.29 CAD) and Sen-11574 Pulse Rate Sensor ($23.28 CAD).
 </br>
 
-# Build Materials
+# Build-Materials
+
 <br/>
 ### Raspberry Pi 3b+
 
