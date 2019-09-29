@@ -4,7 +4,7 @@ Smart Watch IoT Project for CENG317 2019-2020
 ####            By Baltej Bal • For Hardware Production Technology CENG 317, Humber College School of Applied Technology
 
 <br />
- # Pulse Sensor (sen-11574)
+ # Pulse Sensor (sen-11574)<br/>
  # MCP3008
 <br/>
 
