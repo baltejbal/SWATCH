@@ -62,7 +62,7 @@ Also known as Rpi 3b+ is the newest as well as fastest pocket sized computer.
 
 ### Sen-11574 
 
-![sen-11574](https://cdn.shopify.com/s/files/1/0915/1182/products/11574-01_2048x.jpg?v=1473879996)
+![sen-11574](https://cdn.instructables.com/FS4/6SIE/IUSLXPO8/FS46SIEIUSLXPO8.LARGE.jpg?auto=webp&frame=1&width=320)
 
 ### MCP3008-8-Channel 10-Bit ADC with SPI Interface to convert analog/digital
 ![MCP3008](https://images-na.ssl-images-amazon.com/images/I/518Ka7SmitL._SL1000_.jpg)
