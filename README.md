@@ -5,6 +5,7 @@ Smart Watch IoT Project for CENG317 2019-2020
 
 <br />
  # Pulse Sensor (sen-11574)
+ # MCP3008
 <br/>
 
 ## Table of Contents
