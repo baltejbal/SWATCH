@@ -9,7 +9,8 @@ Smart Watch IoT Project for CENG317 2019-2020
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Build Materials and Budget](#Build-materials-and-Budget)
+- [Budget](#Budget)
+- [Build Materials](#Build Materials)
 
 <br />
 
@@ -26,7 +27,7 @@ and  the sen-11574 pulse rate sensor from [here]( https://elmwoodelectronics.ca/
 <br/>
 <br/>
 
-# Build-materials-and-Budget
+# Budget
 
 <br/>
 A full list of materials along with a detailed view of costs can be downloaded form within this repository.[budget.docx](https://github.com/baltejbal/SWATCH/blob/master/budget.xlsx)<br/>
@@ -38,6 +39,9 @@ The total cost after removing the soldering kit is: **$ 129.51 CAD** after HST. 
 
 Notable purchases include: Raspberry Pi 3B+ Kit ($74.29 CAD) and Sen-11574 Pulse Rate Sensor ($23.28 CAD).
 </br>
+
+# Build Materials
+
 ### Raspberry Pi 3b+
 
 ![rpi3b](https://user-images.githubusercontent.com/42980862/49776194-078b5d00-fcc9-11e8-8d61-f96a17dfd31c.PNG)
