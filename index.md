@@ -1,6 +1,8 @@
 <html>
   <head></head>
   <body>
+    <h3 id="October-01-2019-week-5">Week 5 - October 01, 2019</h3> 
+    <p>Order Confirmation created and uploaded <a href="https://github.com/baltejbal/SWATCH/blob/master/ORDER%20CONFIRMATION.docx">here</a>.</p>
     <h3 id="september-24-2019-week-4">Week 4 - September 24, 2019</h3>
     <p>Budget created and uploaded <a href="https://github.com/baltejbal/SWATCH/blob/master/budget.xlsx">here</a>.</p>
     <h3 id="september-17-2019-week-3">Week 3 - September 17, 2019</h3>
