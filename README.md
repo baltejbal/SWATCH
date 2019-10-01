@@ -67,4 +67,4 @@ Also known as Rpi 3b+ is the newest as well as fastest pocket sized computer.
 ### MCP3008-8-Channel 10-Bit ADC with SPI Interface to convert analog/digital<br/>
 
 Need to add analog inputs? This chip will add 8 channels of 10-bit analog input to your microcontroller or microcomputer project. It's super easy to use, and uses SPI so only 4 pins are required. I chose this chip as a great accompaniment to the Raspberry Pi computer, because its fun to have analog inputs but the Pi does not have an ADC.
-![MCP3008](https://raspberry.piaustralia.com.au/assets/thumbL/AF-856.jpg?1500468946)
+![MCP3008](https://36projectsblog.files.wordpress.com/2017/12/3008-ic-and-pinout.png?w=840)
