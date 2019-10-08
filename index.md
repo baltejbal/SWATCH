@@ -2,7 +2,7 @@
   <head></head>
   <body>
      <h3 id="October-08-2019-week-6">Week 6 - October 08, 2019</h3> 
-    <p>Fritizing Uploaded <a                  
+    <p>Fritizing and PCB Uploaded <a                  
     href="https://github.com/baltejbal/SWATCH/blob/master/ORDER%20CONFIRMATION.docx">here</a>.</p>
     <p>Link to download Fritizing program <a     
     href="https://fritzing.org/download/">here</a>.</p>
