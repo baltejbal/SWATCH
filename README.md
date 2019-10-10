@@ -69,5 +69,7 @@ Also known as Rpi 3b+ is the newest as well as fastest pocket sized computer.
 
 Need to add analog inputs? This chip will add 8 channels of 10-bit analog input to your microcontroller or microcomputer project. It's super easy to use, and uses SPI so only 4 pins are required. I chose this chip as a great accompaniment to the Raspberry Pi computer, because its fun to have analog inputs but the Pi does not have an ADC.
 ![MCP3008](https://36projectsblog.files.wordpress.com/2017/12/3008-ic-and-pinout.png?w=840)</br>
+
 #Time-Schedule
+
 Realistically, this project should take roughly a weekend to complete if all materials and facilites are available to you. The materials themselves might take a week to arrive due to shipping, but the actual proccess of assembling and programming should not take longer than 3 days. A couple of hours each day can be dedicated towards the different aspects of the project to make time usuage more efficient and effective. For me, this project took around 1 whole semester (4 months) to finish along with an average work time of around 2.5 hours a week. Here is the time schedule I followed:
