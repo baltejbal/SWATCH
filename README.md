@@ -79,7 +79,7 @@ You can wire the MCP3008-8-Channel 10-Bit ADC with SPI Interface to convert anal
 
 This is the layout for the pins of the Raspberry pi<br>
 
-![imageofsensor](file:///C:/Users/balib/Desktop/PULSE%20SENSORfin_bb.png)
+![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSORfin_bb.png)
 
 
 
