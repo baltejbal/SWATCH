@@ -84,8 +84,10 @@ You can wire the MCP3008-8-Channel 10-Bit ADC with SPI Interface to convert anal
 In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
 
 Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor.This is the layout for the pins of the Raspberry pi<br>
-![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png)
+![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png)</br>
 
+From here you can create the PCB design from the wiring you just designed. The PCB layout should look similar to this.
+![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_pcb.png)
 
 
 
