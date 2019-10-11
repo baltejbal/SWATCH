@@ -13,6 +13,9 @@ Smart Watch IoT Project for CENG317 2019-2020
 - [Budget](#Budget)
 - [Build Materials](#Build-Materials)
 - [Time Schedule](#Time-Schedule)
+- [PCB Design Files](#pcb-design-files)
+
+Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor. It should look similar to this.
 
 <br />
 
@@ -77,8 +80,10 @@ You can wire the MCP3008-8-Channel 10-Bit ADC with SPI Interface to convert anal
 
 ![MCP3008](https://36projectsblog.files.wordpress.com/2017/12/3008-ic-and-pinout.png?w=840)</br>
 
-This is the layout for the pins of the Raspberry pi<br>
+### PCB Design Files
+In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
 
+Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor.This is the layout for the pins of the Raspberry pi<br>
 ![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png)
 
 
