@@ -6,6 +6,7 @@
     href="https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">here</a>.</p>
     <p>Link to download Fritizing program <a     
     href="https://fritzing.org/download/">here</a>.</p>
+    <p>Soldering safety training completed in-class. I am currently in the process of finalizing my PCB design. Finalized designs will be        uploaded once confirmed - printing and soldering will take place soon after.</p>
     <h3 id="October-01-2019-week-5">Week 5 - October 01, 2019</h3> 
     <p>Order Confirmation created and uploaded <a href="https://github.com/baltejbal/SWATCH/blob/master/ORDER%20CONFIRMATION.docx">here</a>.</p>
     <h3 id="september-24-2019-week-4">Week 4 - September 24, 2019</h3>
