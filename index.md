@@ -1,4 +1,3 @@
-href="https://github.com/baltejbal/PICS/blob/master/Finalpcb_pcb.png">here</a>.</p>
 <html>
   <head></head>
   <body>
