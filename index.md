@@ -4,7 +4,7 @@
     <h3 id="November-05-2019-Week-10">Week 10 - November 05, 2019</h3>
     <p>(not yet completed)</p>
     <h3 id="October-29-2019-Week-9">Week 9 - October 29, 2019</h3>
-    <p>(not yet completed)</p>
+    <p>Breadboard was setup and code was written to read data off the sensor and on to the Pi. I have not run into any additional   expenses so far, but the project is not going as planned. My sensor is showing an error and it does not show the BPM found it only shows the error "No Heartbeat Found". I have reset my Pi and i am restarted from scratch. PCB soldering will be done as soon as I get my sensor to read data.</p>
     <h3 id="October-22-2019-Week-8">Week 8 - October 22, 2019(Reading Week)</h3>
     <p> Hello. As we hit week 8 of the Pulse sensor build, I’d like to keep you up to speed on what’s happening. For starters the week 7 PCB milestone has been completed to see the design please see below. In terms of financial status all parts have been purchased with the exception of the heart rate sensor but before we return from reading week I will have it as it is arriving on time. Furthuremore, it is possible that revisions may be need for the PCB board as things may change but for now it is completed. </br></br>
       
