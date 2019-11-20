@@ -2,7 +2,7 @@
   <head></head>
   <body>
     <h3 id="November-19-2019-Week-11">Week 11 - November 19, 2019</h3>
-    <p>The enclosure is due this week.</p>
+    <p>The enclosure is due this week, built and assembled. I used CorelDraw 2019 to create the design files, and the enclosure was laser-cut in the Humber Prototype Lab. The design files can be found in the project repository.</p>
     https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM%20(1).jpeg<br><b>Without Fit:</b>
    <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM.jpeg<br><b>Fitted With Rpi:</b>
     <h3 id="November-12-2019-Week-10">Week 10 - November 12, 2019</h3>
