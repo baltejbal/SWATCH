@@ -5,7 +5,7 @@
     <p>PCB soldering is complete, Raspberry Pi software has been configured as well - I am able to connect to a Pi using VNC/xRDP.
 There have been no changes to the budget or the project outline up until this point. As the Pi-related parts of the project begin to wind-down (software is functional, PCB is soldered, and I am able to read data off the sensor), I am shifting focus to designing and assembling an enclosure. The enclosure is due next week, followed by the final presentation the week after.</p>
     <h3 id="November-05-2019-Week-9">Week 9 - November 05, 2019</h3>
-    <p>PCB Solidering is done this week</p></br>
+    <p>PCB Solidering is done this week</p>
   <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%208.57.13%20AM.jpeg<br><b>Bottom View:</b>
   <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%208.57.16%20AM.jpeg<br><b>Top View:</b>
     <h3 id="October-29-2019-Week-8">Week 9 - October 29, 2019</h3>
