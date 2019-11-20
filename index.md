@@ -3,14 +3,14 @@
   <body>
     <h3 id="November-19-2019-Week-11">Week 11 - November 19, 2019</h3>
     <p>The enclosure is due this week.</p>
-   <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM%20(1).jpeg<br><b>Without Fit:</b>
+    https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM%20(1).jpeg<br><b>Without Fit:</b>
    <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM.jpeg<br><b>Fitted With Rpi:</b>
     <h3 id="November-12-2019-Week-10">Week 10 - November 12, 2019</h3>
     <p>PCB soldering is 85% complete, Raspberry Pi software has been configured as well - I am able to connect to a Pi using VNC/xRDP.
 There have been no changes to the budget or the project outline up until this point. As the Pi-related parts of the project begin to wind-down (software is functional, PCB is soldered, and I am still working on being able to read data off the sensor).</p>
     <h3 id="November-05-2019-Week-9">Week 9 - November 05, 2019</h3>
     <p>PCB Solidering is done this week</p>
-  <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%208.57.13%20AM.jpeg<br><b>Bottom View:</b>
+  https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%208.57.13%20AM.jpeg<br><b>Bottom View:</b>
   <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%208.57.16%20AM.jpeg<br><b>Top View:</b>
     <h3 id="October-29-2019-Week-8">Week 9 - October 29, 2019</h3>
     <p>Breadboard was setup and code was written to read data off the sensor and on to the Pi. I have not run into any additional   expenses so far, but the project is not going as planned. My sensor is showing an error and it does not show the BPM found it only shows the error "No Heartbeat Found". I have reset my Pi and I am restarting from scratch. PCB soldering will be done as soon as I get my sensor to read data.</p>
