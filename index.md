@@ -3,9 +3,9 @@
   <body>
     <h3 id="November-19-2019-Week-11">Week 11 - November 19, 2019</h3>
     <p>The enclosure is due this week, built and assembled. I used CorelDraw 2019 to create the design files, and the enclosure was laser-cut in the Humber Prototype Lab. The design files can be found in the project repository.</p>
-    <p><p> Enclosure Design <a href="https://github.com/baltejbal/SWATCH/blob/master/Enclosure_CorelDraw.cdr">here</a>.</p><a 
+    <p><p> Enclosure Design <a href="https://github.com/baltejbal/SWATCH/blob/master/Enclosure_CorelDraw.cdr">here</a>.</p>
     https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM%20(1).jpeg<br><b>Without Fit:</b>
-   <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM.jpeg<br><b>Fitted With Rpi:</b>
+  <br>https://github.com/baltejbal/PICS/blob/master/WhatsApp%20Image%202019-11-20%20at%209.11.10%20AM.jpeg<br><b>Fitted With Rpi:</b><a> 
     <h3 id="November-12-2019-Week-10">Week 10 - November 12, 2019</h3>
     <p>PCB soldering is 85% complete, Raspberry Pi software has been configured as well - I am able to connect to a Pi using VNC/xRDP.
 There have been no changes to the budget or the project outline up until this point. As the Pi-related parts of the project begin to wind-down (software is functional, PCB is soldered, and I am still working on being able to read data off the sensor).</p>
