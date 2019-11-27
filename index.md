@@ -1,6 +1,8 @@
 <html>
   <head></head>
   <body>
+    <h3 id="November-26-2019-Week-12">Week 12 - November 26, 2019</h3>
+    <p> This week we started our final presentations to demonstrate our sensors. I had problems with my first Raspberry pi as it stopped work so I had to buy a new one, just recieved it in the mail and I can confirm that my sensor is working <a href="https://github.com/baltejbal/PICS/blob/master/working.jpeg">here</a></p> 
     <h3 id="November-19-2019-Week-11">Week 11 - November 19, 2019</h3>
     <p>The enclosure is due this week, built and assembled. I used CorelDraw 2019 to create the design files, and the enclosure was laser-cut in the Humber Prototype Lab. The design files can be found in the project repository.</p>
     <p><p> Enclosure Design <a href="https://github.com/baltejbal/SWATCH/blob/master/Enclosure_CorelDraw.cdr">here</a>.</p>
