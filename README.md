@@ -96,12 +96,21 @@ This step will outline basic sensor connectivity using jumper wires and a breadb
 
 
 # PCB/Soldering
+<br/>
 
 PCB design and soldering is the most crucial step to this project. PCB cutting is a time-consuming and costly process, and any errors in design will most likely require your board to be re-printed. Anyhow, it is heavily advised to ensure that your design is correct prior to any cutting being done. 
 
 **Step 1: Fritzing**
-In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
+The appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
 
+Create the appropriate connections, ensuring that any traces do not cross. Try to get your board to be as compact as possible. Alternatively, you can use my fritzing file found [here](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png).
+  
+Export as a Gerber file. `File > Export for Production > Extended Gerber` and select an easily-accessible folder. These files are the standard filetype used to etch and cut physical PCBs.
+  
+Compress the Gerber files, and send them to your etcher of choice. I used the school prototype lab provided. 
+
+**Step 2: Soldering**
+<br/>
 From here you can create the PCB design from the wiring you just designed. The PCB layout should look similar to this.
 ![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_pcb.png)
 
