@@ -97,10 +97,10 @@ This step will outline basic sensor connectivity using jumper wires and a breadb
 
 # PCB/Soldering
 
-In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
+PCB design and soldering is the most crucial step to this project. PCB cutting is a time-consuming and costly process, and any errors in design will most likely require your board to be re-printed. Anyhow, it is heavily advised to ensure that your design is correct prior to any cutting being done. 
 
-Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor.This is the layout for the pins of the Raspberry pi<br>
-![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png)</br>
+**Step 1: Fritzing**
+In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
 
 From here you can create the PCB design from the wiring you just designed. The PCB layout should look similar to this.
 ![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_pcb.png)
