@@ -9,7 +9,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 3. [BOM/Budget](#Bill-of-Materials-and-Budget)
 4. [Build Materials](#Build-Materials)
 5. [Time Commitment](#Time-Commitment)
-6. [PCB Design Files](#pcb-design-files)
+6. [PCB/Soldering](#pcb-design-files)
 
 <br />
 
@@ -52,7 +52,7 @@ Assuming that all parts of the project have been acquired this project should ta
 [Time-Schedule](https://github.com/baltejbal/SWATCH/blob/master/ProjectTimeLine.mpp)<br>
 
 ## Mechanical Assembly
-**Step 1: Preparing your development platform**
+*Step 1: Preparing your development platform*
 This step will outline how to prepare the project's development platform - the Raspberry Pi 3B+.
 
   1. Download the latest [Raspberry Pi image](https://www.raspberrypi.org/downloads/). NOOBS is recommended, as it includes the latest Raspbian operating system, a variety of useful software tools pre-installed, and a selection of alternate operating systems.
@@ -73,8 +73,30 @@ This step will outline how to prepare the project's development platform - the R
   Enter the IP address you noted above. The application will prompt you for a username and password - the Pi's default username is `pi` and the default password is `raspberry`. Enter these credentials, and the Pi's graphical interface should appear on the computer you are using. You are now controlling the Pi remotely!
   
   9. At this stage, all the software required for the development platform has been installed and configured. The Pi can be shutdown using the menu bar option, or by entering `sudo powerdown` into the terminal. Once the Pi is off, all the cables can be unplugged and the Pi set aside until later.
+  
+*Step 2: Breadboarding and Prototyping*
 
-# PCB Design Files
+This step will outline basic sensor connectivity using jumper wires and a breadboard. The design and layout established in this step will carry over to PCB design and soldering.
+
+  1. Gather the following items: Breadboard, Pulse Sensor, MCP3008 Adc and many Female-to-Male cables. 
+  
+  2. Identify the correct pins on the sensor. For the sensor and the ADC.
+  
+  ![](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png)
+  
+  3. Identify the corresponding pins on your development platforms GPIO header. 
+  
+  4. Line the sensor up with holes on the main part of the breadboard, and insert the male-end of the jumper cables into the pins previously identified. Insert the female end of each cable into the matching GPIO pin on the Raspberry Pi. 
+  
+  5. When your physical connections are secured, plug in your peripherals into the Raspberry Pi and power it on.
+  
+  6. Following the directions established above, create a remote desktop connection to the Pi. Use the ip address that you noted when preparing your platform initially - the login credentials should be the same.
+  
+ 7. At this point, breadboard prototyping is complete, It is time to move on the designing and soldering a plug-and-play PCB.
+
+
+# PCB/Soldering
+
 In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
 
 Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor.This is the layout for the pins of the Raspberry pi<br>
