@@ -144,13 +144,12 @@ All testing so far has been to verify that the sensor is in working condition, a
   
   3. Run the script by entering `python example.py`. It will prompt you a no heartbeat found, once you place you finger on the heartrate sensor it will measure your heartrate and display a BPM.
   
-When you run the program you should end up with a screen that looks like this.![](https://github.com/baltejbal/PICS/blob/master/working.jpeg)
-  
+When you run the program you should end up with a screen that looks like this.![](https://github.com/baltejbal/PICS/blob/master/working.jpeg).
+
+# Production Testing
+Schematics for an acrylic case can be found [here](https://github.com/baltejbal/SWATCH/blob/master/Enclosure_CorelDraw.cdr). The case encloses the Raspberry Pi 3B+ and the PCB.
 
 
+With the case cut and assembled, you now have a functioning, portable heartrate monitor. Portability may be an issue depending on further integration you may have planned. The case dimensions are very tightly-fitting with the Raspberry Pi Model B+ board, and the provided PCB is about as small as it can get without using highly-specialized etching machines for thinner traces.
 
-
-
-
-
-
+This concludes the build instructions for the AdaFruit Heartrate Sensor and the MCP3008 ADC. 
