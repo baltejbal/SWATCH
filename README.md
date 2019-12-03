@@ -1,11 +1,3 @@
-Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor. It should look similar to this.
-<br />
- # Pulse Sensor (sen-11574)<br/>
- # MCP3008
-<br/>
-
-
-
 # SWATCH
 Implementing the Heartrate portion of a SmartWatch IOT project using the Adafruit Pulse Sensor and a Raspberry Pi 3 
 # Build Instructions for using Pulse Rate Sensor on a Raspberry Pi 3B+
@@ -14,7 +6,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 ## Table of Contents
 1. [Introduction](#Introduction)
 2. [System Diagram](#System-Diagram)
-3. [Bill of Materials/Budget](#Bill of Materials/Budget)
+3. [Bill of Materials/Budget](# Bill-of-Materials-Budget)
 4. [Build Materials](#Build-Materials)
 5. [Time Commitment](#Time-Commitment)
 6. [PCB Design Files](#pcb-design-files)
@@ -73,19 +65,16 @@ This step will outline how to prepare the project's development platform - the R
   
   5. Configure more connectivity options to your Pi. Open the *terminal* application, and enter `sudo raspi-config`. Navigate to *Interfacing options* and enable both **VNC** and **SPI**. VNC will allow for remote graphical connections to the Pi, and the MCP3008 uses SPI.
   
-  6. Install required software tools and libraries. The ADC uses the **SpiDev** library, which must be installed. [Downloading SpiDev](http://tightdev.net/SpiDev_Doc.pdf/).
+  6. Install required software tools and libraries. The ADC uses the **SpiDev** library, which must be installed. [Downloading SpiDev](https://github.com/baltejbal/PICS/blob/master/SpiDev_Doc.pdf).
   
   7. Collect information for remote access. Once connected to the internet, open the terminal and enter `ifconfig`. Make a note of the value found next to *inet* underneath the *eth0* heading. This is the Pi's IP address, and will be used to connect to the Pi from another computer. It can change, but rarely does assuming network conditions remain consistent.
   
-  8. From another computer, open any remote-connection app. On macOS, use Finder's *Connect to..* utility (CMD+K within Finder). On a Windows computer, the *Remote Desktop Connection* application can be used. Alternatively, RealVNC's *[VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)* can be used on any platform, and is generally the most reliable means of connecting.
+  8. From another computer, open any remote-connection app. On a Windows computer, the *Remote Desktop Connection* application can be used. Alternatively, RealVNC's *[VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)* can be used on any platform, and is generally the most reliable means of connecting.
   Enter the IP address you noted above. The application will prompt you for a username and password - the Pi's default username is `pi` and the default password is `raspberry`. Enter these credentials, and the Pi's graphical interface should appear on the computer you are using. You are now controlling the Pi remotely!
   
   9. At this stage, all the software required for the development platform has been installed and configured. The Pi can be shutdown using the menu bar option, or by entering `sudo powerdown` into the terminal. Once the Pi is off, all the cables can be unplugged and the Pi set aside until later.
 
-
-
-
-### PCB Design Files
+# PCB Design Files
 In order to develop the PCB design files, the appilcation Fritzing is required along with the MCP3008-8-Channel 10-Bit ADC file which must be added to the application. The file can be downloaded <a href = "https://github.com/baltejbal/SWATCH/blob/master/PULSE%20SENSOR.fzz">Here</a>
 
 Once the Sensor is added to parts, you can create a frizting diagram for the wiring of the pi and sensor.This is the layout for the pins of the Raspberry pi<br>
