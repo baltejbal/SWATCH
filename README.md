@@ -111,8 +111,41 @@ Compress the Gerber files, and send them to your etcher of choice. I used the sc
 
 **Step 2: Soldering**
 <br/>
-From here you can create the PCB design from the wiring you just designed. The PCB layout should look similar to this.
-![imageofsensor](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_pcb.png)
+Once the PCB has been created, it's time to solder. Ensure that you work in a well-ventilated area, wearing safety glasses and using an iron that you are comfortable with.
+ 
+  1. Gather your sensor and ADC, a length of copper wire, a wire stripper, a 10-pin double-sided header (does not come with your sensor), a 40-pin stackable header, your PCB, solder and a soldering iron.
+  
+  2. Solder the 10-pin header to the sensor board. To make this easier, you can place the extended pins into a breadboard, and place the sensor on the shorter pins. This ensures a sturdy connection.
+    
+  3. Solder the vias on your PCB. The easiest method for this is to strip a copper wire, and place it through the via into a breadboard. Solder all vias on the exposed side, and then flip and repeat for the opposite side.
+  
+  4. Solder the sensor to the PCB. You will need to rest the PCB on a flat surface for this, as there is no way to access the extended pins while they are mounted. 
+  
+  5. Solder the stackable header on to the PCB. All 40 should be soldered to ensure stability when attached to the Pi.
+  
+  ![](https://github.com/baltejbal/PICS/blob/master/pcbdes.jpeg)
+  
+  At this point, soldering is complete. Attach your soldered board to the appropriate GPIO pins on the Pi, and get ready for further testing.
+
+<br/>
+
+# Power Up
+With all peripherals plugged into your Pi, power it on. As above, establish a remote desktop connection, using a multi-meter check if you are recieving power to the chip and make sure the heartrate sensor is on.
+
+# Unit Testing
+All testing so far has been to verify that the sensor is in working condition, and that there is a valid connection to the Pi. Further testing needs to be done - particularly in verifying that the heartrate values can be read off the sensor and displayed in real-time.
+
+  1. Download the python file found [here](https://github.com/tutRPi/Raspberry-Pi-Heartbeat-Pulse-Sensor).
+  
+  2. Open a terminal, and navigate to your home directory using `cd ~`. 
+  
+  3. Run the script by entering `python example.py`. It will prompt you a no heartbeat found, once you place you finger on the heartrate sensor it will measure your heartrate and display a BPM.
+  
+When you run the program you should end up with a screen that looks like this.![](https://github.com/baltejbal/PICS/blob/master/working.jpeg)
+  
+
+
+
 
 
 
