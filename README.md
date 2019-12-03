@@ -6,7 +6,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 ## Table of Contents
 1. [Introduction](#Introduction)
 2. [System Diagram](#System-Diagram)
-3. [Bill of Materials/Budget](# Bill-of-Materials-Budget)
+3. [BOM/Budget](#Bill-of-Materials-and-Budget)
 4. [Build Materials](#Build-Materials)
 5. [Time Commitment](#Time-Commitment)
 6. [PCB Design Files](#pcb-design-files)
