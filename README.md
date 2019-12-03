@@ -3,7 +3,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 # Build Instructions for using Pulse Rate Sensor on a Raspberry Pi 3B+
 #### By Baltej Bal • For Hardware Production Technology CENG 317, Humber College School of Applied Technology
 
-## Table of Contents
+# Table of Contents
 1. [Introduction](#Introduction)
 2. [System Diagram](#System-Diagram)
 3. [BOM/Budget](#Bill-of-Materials-and-Budget)
@@ -54,7 +54,7 @@ This project was compleated over a 15 week semester with an average weekly time 
 Assuming that all parts of the project have been acquired this project should take roughly a weekend to complete. The materials themselves might take a day or two to arrive depending on the shipping method. The actual proccess of assembling and programming should not take longer than 3 days. A couple of hours each day can be dedicated towards the different aspects of the project to make time usuage more efficient and effective. Here is the time schedule I followed:</br>
 [Time-Schedule](https://github.com/baltejbal/SWATCH/blob/master/ProjectTimeLine.mpp)<br>
 
-## Mechanical Assembly
+# Mechanical Assembly
 *Step 1: Preparing your development platform*
 This step will outline how to prepare the project's development platform - the Raspberry Pi 3B+.
 
@@ -98,7 +98,7 @@ This step will outline basic sensor connectivity using jumper wires and a breadb
  7. At this point, breadboard prototyping is complete, It is time to move on the designing and soldering a plug-and-play PCB.
 
 
-# PCB/Soldering
+# PCB Design and Soldering
 <br/>
 
 PCB design and soldering is the most crucial step to this project. PCB cutting is a time-consuming and costly process, and any errors in design will most likely require your board to be re-printed. Anyhow, it is heavily advised to ensure that your design is correct prior to any cutting being done. 
