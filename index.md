@@ -1,6 +1,12 @@
 <html>
   <head></head>
   <body>
+    <h3 id="December-17-2019-Week-15">Week 15 - December 17, 2019</h3>
+    <p> Semester has Ended and we will continue with our project next semester in the CapStone Project or CENG355</p> 
+    <h3 id="December-10-2019-Week-14">Week 14 - December 10, 2019</h3>
+    <p> This week we contuined our final presentations to demonstrate our sensors. The Build Instructions are due this week, my build instructions can be found <a href="https://github.com/baltejbal/SWATCH/blob/master/README.md">here.</a></p> 
+    <h3 id="December-03-2019-Week-13">Week 13 - December 03, 2019</h3>
+    <p> This week we contuined our final presentations to demonstrate our sensors. I presented 3rd this week.<p/> 
     <h3 id="November-26-2019-Week-12">Week 12 - November 26, 2019</h3>
     <p> This week we started our final presentations to demonstrate our sensors. I had problems with my first Raspberry pi as it stopped work so I had to buy a new one, just recieved it in the mail and I can confirm that my sensor is working <a href="https://github.com/baltejbal/PICS/blob/master/working.jpeg">here.</a> I will be presenting next week and this is my powerpoint <a href="https://github.com/baltejbal/SWATCH/blob/master/Heartrate%20Sensor.pptx">here.</a></p> 
     <h3 id="November-19-2019-Week-11">Week 11 - November 19, 2019</h3>
