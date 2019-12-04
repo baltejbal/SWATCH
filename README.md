@@ -50,7 +50,7 @@ Notable purchases include: Raspberry Pi 3B+ Kit ($74.29 CAD) and Sen-11574 Pulse
 </br>
 
 # Time Commitment
-This project was compleated over a 15 week semester with an average weekly time commitment of 165 minutes a week. Some tasks require extra work outside of class, such as soldering and troubshooting. 
+This project was compleated over a 15 week semester with an average weekly time commitment of 165 minutes a week. Some tasks require extra work outside of class, such as soldering and troubleshooting. 
 
 Assuming that all parts of the project have been acquired this project should take roughly a weekend to complete. The materials themselves might take a day or two to arrive depending on the shipping method. The actual proccess of assembling and programming should not take longer than 3 days. A couple of hours each day can be dedicated towards the different aspects of the project to make time usuage more efficient and effective. Here is the time schedule I followed:</br>
 [Time-Schedule](https://github.com/baltejbal/SWATCH/blob/master/ProjectTimeLine.mpp)<br>
