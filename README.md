@@ -6,7 +6,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 # Table of Contents
 1. [Introduction](#Introduction)
 2. [System Diagram](#System-Diagram)
-3. [BOM/Budget](#Bill-of-Materials-and-Budget)
+3. [Bill of Materials/Budget](#Bill-of-Materials-and-Budget)
 4. [Time Commitment](#Time-Commitment)
 5. [Mechanical Assembly](#Mechanical-Assembly)
 6. [PCB Design and Soldering](#PCB-Design-and-Soldering)
@@ -19,17 +19,17 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 # Introduction
 This project is to implement the Adafruit Pulse Sensor into a development platform. The Pulse Sensor is soldered on to a custom-designed PCB to allow for plug-and-play functionality with the Raspberry Pi 3 development platform. Firmware was written to interface with the connected sensor, and an enclosure was designed to hold the Pi and sensor assembly. 
 
-The Pulse Sensor is a well-designed plug-and-play heart-rate sensor for Arduino with both I2C and SPI interfaces. It was chosen due intrests in the smartwatch project and it already exists in the modern day smartwatch's.  It can also be used by many who want to easily incorporate live heart rate data into their projects. It also includes an open-source monitoring app that graphs your pulse in real time. The Raspberry Pi 3 is an ARM-based 64-bit single board computer with a large developer community and support - a perfect development platform for integrating multiple sensors into a final working product.
+The Pulse Sensor is a well-designed plug-and-play heart-rate sensor for Arduino with both I2C and SPI interfaces. It was chosen due to intrests in the smartwatch project and it already exists in the modern day smartwatch's.  It can also be used by many who want to easily incorporate live heart rate data into their projects. It also includes an open-source monitoring app that graphs your pulse in real time. The Raspberry Pi 3 is a single board computer with a large developer community a perfect development platform for integrating multiple sensors into a final working product.
 
-Once complete, this project can be integrated alongside other sensors to provide more complex functionality and handle more applications. This project in particular is part of a multi-semester group project to integrate an accelerometer, pulse sensor and a temperature sensor alongside an appropriate enclosure and development platform in order to create a smartwatch device.
+Once complete, this project can be integrated alongside other sensors to provide more complex functionality and handle more applications. This project in particular is part of a multi-semester group project to integrate an pulse sensor, accelerometer and a temperature sensor alongside an appropriate enclosure and development platform in order to create a smartwatch device.
 
 ![sen-11574](https://cdn.shopify.com/s/files/1/0915/1182/products/11574-01_2048x.jpg?v=1473879996)
 <br/>
 (source of Image : https://elmwoodelectronics.ca/products/11574?variant=28163190211)
 
 <br/>
-You can buy Raspberry Pie from [here]( https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
-and  the sen-11574 pulse rate sensor from [here]( https://elmwoodelectronics.ca/products/11574?variant=28163190211).
+You can buy a Raspberry Pi 3B+ from [here]( https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+and  the Sen-11574 Pulserate Sensor from [here]( https://elmwoodelectronics.ca/products/11574?variant=28163190211).
 <br/>
 <br/>
 
@@ -55,35 +55,36 @@ Assuming that all parts of the project have been acquired this project should ta
 [Time-Schedule](https://github.com/baltejbal/SWATCH/blob/master/ProjectTimeLine.mpp)<br>
 
 # Mechanical Assembly
-*Step 1: Preparing your development platform*
-This step will outline how to prepare the project's development platform - the Raspberry Pi 3B+.
+**Step 1: Setting Up The Raspberry Pi**
 
-  1. Download the latest [Raspberry Pi image](https://www.raspberrypi.org/downloads/). NOOBS is recommended, as it includes the latest Raspbian operating system, a variety of useful software tools pre-installed, and a selection of alternate operating systems.
+This step will outline how to setup the Raspberry Pi 3B+.
+
+  1. Download the latest [Raspberry Pi image](https://www.raspberrypi.org/downloads/). NOOBS is recommended, as it includes the latest Raspbian operating system, a variety of useful software tools are pre-installed, and a selection of alternate operating systems.
   
-  2. Prepare your microSD card. Plug the card into any computer, and unzip the downloaded file to an easily-accessible folder on your computer, copy the unzipped files to the inserted microSD card. Once complete, unmount or safely eject the card.
+  2. Prepare your microSD card. Plug the card into any computer, and unzip the downloaded file to an accessible folder on your computer, copy the unzipped files to the inserted microSD card. Once complete, safely eject the card.
   
-  3. Insert the prepared microSD card into the port located on the bottom-side of the Pi. Insert a keyboard, mouse, HDMI cable and Ethernet cable into the Pi. Ensure the HDMI cable is connected to a functioning display, and then plug in the micro-usb power adapter to power on the Rpi.
+  3. Insert the microSD card into the port located on the bottom of the Pi. Insert a keyboard, mouse, HDMI cable and Ethernet cable into the Pi. Ensure the HDMI cable is connected to a functioning display, and then plug in the micro-usb power adapter to the Rpi.
   
-  4. Upon booting, a splash screen with a variety of operating system options will appear. Select **Raspbian** and follow the on-screen prompts to configure your installation. The install process should take a few minutes. Once complete, the Pi will automatically restart to the the Desktop screen.
+  4. Upon booting up the pi, a splash screen with a variety of operating systems will appear. Select **Raspbian** and follow the on-screen prompts to configure your installation. The install process should take a few minutes. Once complete, the Pi will automatically restart to the the Desktop screen.
   
-  5. Configure more connectivity options to your Pi. Open the *terminal* application, and enter `sudo raspi-config`. Navigate to *Interfacing options* and enable both **VNC** and **SPI**. VNC will allow for remote graphical connections to the Pi, and the MCP3008 uses SPI.
+  5. Once Booted enable SPI and VNC on your Pi. To do this open the *terminal* application, and enter `sudo raspi-config`. Navigate to *Interfacing options* and enable both **VNC** and **SPI**. VNC will allow for remote graphical connections to the Pi, and the MCP3008 uses SPI.
   
   6. Install required software tools and libraries. The ADC uses the **SpiDev** library, which must be installed. [Downloading SpiDev](https://github.com/baltejbal/PICS/blob/master/SpiDev_Doc.pdf).
   
-  7. Collect information for remote access. Once connected to the internet, open the terminal and enter `ifconfig`. Make a note of the value found next to *inet* underneath the *eth0* heading. This is the Pi's IP address, and will be used to connect to the Pi from another computer. It can change, but rarely does assuming network conditions remain consistent.
+  7. Collect information for remote access. Once connected to the internet, open the terminal and enter `ifconfig`. Make a note of the value found next to *inet* underneath the *eth0*. This is the Pi's IP address, and will be used to connect to the Pi from another computer. 
   
-  8. From another computer, open any remote-connection app. On a Windows computer, the *Remote Desktop Connection* application can be used. Alternatively, RealVNC's *[VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)* can be used on any platform, and is generally the most reliable means of connecting.
-  Enter the IP address you noted above. The application will prompt you for a username and password - the Pi's default username is `pi` and the default password is `raspberry`. Enter these credentials, and the Pi's graphical interface should appear on the computer you are using. You are now controlling the Pi remotely!
+  8. From another computer, open RealVNC's *[VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)* this is a view which can be used on any platform, and is generally the most reliable means of connecting.
+  Enter the IP address you noted above. The application will prompt you for a username and password - the Pi's default username is `pi` and the default password is `raspberry`. You are now controlling the Pi remotely!
   
-  9. At this stage, all the software required for the development platform has been installed and configured. The Pi can be shutdown using the menu bar option, or by entering `sudo powerdown` into the terminal. Once the Pi is off, all the cables can be unplugged and the Pi set aside until later.
+  9. At this stage, all the software required for the development platform has been installed and configured. The Pi can be shutdown using the menu bar option.
   
-*Step 2: Breadboarding and Prototyping*
+**Step 2: Breadboarding and Prototyping**
 
 This step will outline basic sensor connectivity using jumper wires and a breadboard. The design and layout established in this step will carry over to PCB design and soldering.
 
-  1. Gather the following items: Breadboard, Pulse Sensor, MCP3008 Adc and many Female-to-Male cables. 
+  1. Gather the following items: Breadboard, Pulse Sensor, MCP3008 ADC and many Female-to-Male cables. 
   
-  2. Identify the correct pins on the sensor. For the sensor and the ADC.
+  2. Identify the correct pins on the sensor and the ADC.
   
   ![](https://github.com/baltejbal/PICS/blob/master/PULSE%20SENSOR_bb.png)
   
@@ -91,11 +92,11 @@ This step will outline basic sensor connectivity using jumper wires and a breadb
   
   4. Line the sensor up with holes on the main part of the breadboard, and insert the male-end of the jumper cables into the pins previously identified. Insert the female end of each cable into the matching GPIO pin on the Raspberry Pi. 
   
-  5. When your physical connections are secured, plug in your peripherals into the Raspberry Pi and power it on.
+  5. When your physical connections are secured, plug in your keyboard and mouse into the Raspberry Pi and power it on.
   
-  6. Following the directions established above, create a remote desktop connection to the Pi. Use the ip address that you noted when preparing your platform initially - the login credentials should be the same.
+  6. Following the directions established above, create a remote desktop connection to the Pi. Use the ip address that you noted when preparing your platform initially - the login credentials are the same.
   
- 7. At this point, breadboard prototyping is complete, It is time to move on the designing and soldering a plug-and-play PCB.
+ 7. At this point, breadboard prototyping is complete, It is time to move on to the designing and soldering of the plug-and-play PCB.
 
 
 # PCB Design and Soldering
@@ -114,13 +115,13 @@ Compress the Gerber files, and send them to your etcher of choice. I used the sc
 
 **Step 2: Soldering**
 <br/>
-Once the PCB has been created, it's time to solder. Ensure that you work in a well-ventilated area, wearing safety glasses and using an iron that you are comfortable with.
+Once the PCB has been created, it's time to solder. Ensure that you work in a well-ventilated area, wearing safety glasses and using an iron.
  
-  1. Gather your sensor and ADC, a length of copper wire, a wire stripper, a 10-pin double-sided header (does not come with your sensor), a 40-pin stackable header, your PCB, solder and a soldering iron.
+  1. Gather your sensor and ADC, a length of copper wire, a wire stripper, a 10-pin double-sided header for the ADC (does not come with your sensor), a 40-pin stackable header, your PCB, solder and a soldering iron.
   
-  2. Solder the 10-pin header to the sensor board. To make this easier, you can place the extended pins into a breadboard, and place the sensor on the shorter pins. This ensures a sturdy connection.
+  2. Solder the 10-pin header to the sensor board. To make this easier, you can place the extended pins into a breadboard, and place the sensor on the shorter pins. Then solder the 40 pin header to the PCB his ensures a sturdy connection.
     
-  3. Solder the vias on your PCB. The easiest method for this is to strip a copper wire, and place it through the via into a breadboard. Solder all vias on the exposed side, and then flip and repeat for the opposite side.
+  3. Solder the via's on your PCB. The easiest method for this is to strip a copper wire, and place it through the via into a breadboard. Solder all vias on the exposed side, and then flip and repeat for the opposite side.
   
   4. Solder the sensor to the PCB. You will need to rest the PCB on a flat surface for this, as there is no way to access the extended pins while they are mounted. 
   
@@ -149,7 +150,10 @@ When you run the program you should end up with a screen that looks like this.![
 # Production Testing
 Schematics for an acrylic case can be found [here](https://github.com/baltejbal/SWATCH/blob/master/Enclosure_CorelDraw.cdr). The case encloses the Raspberry Pi 3B+ and the PCB.
 
-
 With the case cut and assembled, you now have a functioning, portable heartrate monitor. Portability may be an issue depending on further integration you may have planned. The case dimensions are very tightly-fitting with the Raspberry Pi Model B+ board, and the provided PCB is about as small as it can get without using highly-specialized etching machines for thinner traces.
 
 This concludes the build instructions for the AdaFruit Heartrate Sensor and the MCP3008 ADC. 
+
+# Reproducible 
+Ensuring that the steps are followed accurately and the user is familiar with working with the Raspberry pi, Heartrate Sensor and the MCP3008 ADC this is a project that can be recreated using the build instrustions posted above.   
+
