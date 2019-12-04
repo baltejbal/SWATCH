@@ -13,6 +13,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 7. [Power Up](#Power-Up)
 8. [Unit Testing](#Unit-Testing)
 9. [Production](#Production-Testing)
+10.[Reproducible](#Reproducible)
 
 <br />
 
@@ -155,5 +156,6 @@ With the case cut and assembled, you now have a functioning, portable heartrate 
 This concludes the build instructions for the AdaFruit Heartrate Sensor and the MCP3008 ADC. 
 
 # Reproducible 
-Ensuring that the steps are followed accurately and the user is familiar with working with the Raspberry pi, Heartrate Sensor and the MCP3008 ADC this is a project that can be recreated using the build instrustions posted above.   
+Ensuring that the steps are followed accurately and the user is familiar with working with the Raspberry pi, Heartrate Sensor and the MCP3008 ADC this is a project that can be recreated using the build instrustions posted above.  
 
+This concludes the build instructions for the AdaFruit Heartrate Sensor using the MCP3008 ADC for Anolog to Digital conversion.
