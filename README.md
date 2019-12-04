@@ -13,7 +13,7 @@ Implementing the Heartrate portion of a SmartWatch IOT project using the Adafrui
 7. [Power Up](#Power-Up)
 8. [Unit Testing](#Unit-Testing)
 9. [Production](#Production-Testing)
-10.[Reproducible](#Reproducible)
+10. [Reproducible](#Reproducible)
 
 <br />
 
