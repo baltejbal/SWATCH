@@ -35,7 +35,7 @@ and  the Sen-11574 Pulserate Sensor from [here]( https://elmwoodelectronics.ca/p
 <br/>
 
 # System Diagram
-Image of prodect
+![project](https://github.com/baltejbal/PICS/blob/master/project.jpeg)
 <br/>
 
 # Bill of Materials and Budget
